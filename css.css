@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+body {
+  background-color:hsl(61, 78%, 83%);
+  font-family: 'Times New Roman';
+}
+p:hover {
+    z-index: 3;
+  }
+
+h1 {
+  font: oblique bold 175% cursive;
+  color: white;
+  background-color: hsl(19, 97%, 76%);
+  text-align: center;
+  padding-bottom: 1%; 
+  padding-top: 1%;
+  font-style: oblique;
+  font-family: Arial;
+  text-shadow: 6px 0px red
+  
+}
+nav{
+  padding: 10px 55px;
+    background-color: hsl(59, 95%, 50%);
+    border: red 5px solid;
+    color: orange;
+    text-align: center;
+    margin-top: -1%;
+}
+a{
+    padding: 5%;
+    font-size: 20px;
+}
+  p.cua {
+    padding: 10px;
+    font-size: 1.5rem;
+    float: left;
+  }
+  
+  p#t1 {
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    width: 35%;
+    height: 30%;
+    z-index: 2;
+    border: red 4px solid;
+    background-color: hsl(19, 97%, 76%);
+    text-align: center;
+    color: red;
+    letter-spacing: 5px;
+    text-decoration: overline;
+    font-size: 20px;
+  }
+  p#t2 {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: rgb(172, 172, 7) solid;
+    background-color: hsl(59, 100%, 78%);
+    text-align: left;
+    color: rgb(172, 172, 7);
+    
+  }
+  
+  p#t3 {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: lightblue 4px solid;
+    background-color: rgb(207, 234, 243);
+    text-align: right;
+    color: orange;
+    font-size: 18px;
+  }
+  ul{
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    list-style-type: upper-roman;
+    background-color: hsl(19, 97%, 76%);
+    color: darkblue;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+
+  }
+  footer{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    background-color: yellow;
+    color: brown;
+    padding: 0px;
+    margin: 0px 0px;
+
+  }
+  hr{
+    background:url(img/naranja2.svg)repeat center;
+    height: 25px;
+    width:98%;
+    border: 0px;
+    }
+    img.iz{
+        float: left;
+        height: 50px;
+        width: 50px;
+        
+    }
+  
+    img.der{
+        float: right;
+        height: 50px;
+        width: 50px;
+        
+    }
